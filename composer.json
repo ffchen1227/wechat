@@ -1,0 +1,20 @@
+{
+  "name": "ffchen/wechat",
+  "description": "Wechat",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "ffchen"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "yiisoft/yii2": ">=2.0.6",
+    "curl/curl": "^1.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "ffchen\\wechat\\": "src/"
+    }
+  }
+}
